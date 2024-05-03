@@ -156,10 +156,68 @@ body{
 }
 
 .food_menu{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     display: flex;
     align-items: center;
     width: 100%;
     height: 43cqmax;
     margin-bottom: 3vh;
+    flex-direction: column;
 }
+
+.txt_menfood{
+    margin-top: 5vh;
+    /*border: 1px solid orange;*/
+    width: auto;
+    height: 6vh;
+}
+
+.txt_menfood h3{
+    color: var(--color-1);
+    font-family: 'Poppins', sans-serif;
+}
+
+.txt_subtitle{
+    margin-top: 8vh;
+    /*border: 1px solid violet;*/
+    font-size: 2.5vh;
+}
+
+.txt_subtitle h1{
+    color: var(--color-5);
+    font-family: 'Poppins', sans-serif;
+}
+
+.imgs_food{
+    margin-top: 10vh;
+    /*border: 1px solid green;*/
+    height: 37vh;
+    width: 148vh;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img_food{
+    /*border: 1px solid violet;*/
+    background-color: var(--color-5);
+    font-family: 'Poppins', sans-serif; 
+}
+
+.img_food img{
+    width: 20vh;
+    padding-top: 2vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+}
+
+.img_food h4{
+    display: flex;
+    justify-content: center;
+    color: var(--color-4);
+}
+
+.img_food h4:last-child{
+    color: var(--color-1);
+}   
